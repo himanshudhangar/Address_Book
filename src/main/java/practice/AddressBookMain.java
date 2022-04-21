@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class AddressBookMain {
 	
-	public List<PersonContact> list = new ArrayList<>();
+	public List<PersonContact> list =new ArrayList<>();
     Scanner scan = new Scanner(System.in);
 
     public void operation() {
