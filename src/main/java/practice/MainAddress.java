@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MainAddress {
 
 
-    static Scanner scan =new Scanner(System.in);
+    static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
     	System.out.println("Welcome to Address Book System");

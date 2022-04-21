@@ -3,14 +3,17 @@ package practice;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Predicate;
+import java.util.*;
 
 
 public class AddressBookMain {
 	
-	public List<PersonContact> list =new ArrayList<>();
+	public List<PersonContact> list = new ArrayList<>();
     Scanner scan = new Scanner(System.in);
 
     public void operation() {
@@ -145,6 +148,11 @@ public class AddressBookMain {
       while (it.hasNext()) {
           System.out.println(it.next());
       }
+  }
+
+  public void countList() {
+      Long total = list.stream().count();
+      System.out.println(total);
   }
 
   public void sortCity() {

@@ -54,7 +54,7 @@ public class PersonContact {
 	    }
 
 	    public void setCity(String city) {
-	        this.city =city;
+	        this.city = city;
 	    }
 
 	    public String getState() {
